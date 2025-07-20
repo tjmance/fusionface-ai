@@ -1,0 +1,15 @@
+
+version: '3.8'
+
+services:
+  fusionface:
+    build: .
+    container_name: fusionface-ai
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    command: ["bash", "run.sh", "0", "web"]

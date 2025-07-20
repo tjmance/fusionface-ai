@@ -1,0 +1,12 @@
+opencv-python
+onnxruntime-gpu
+insightface
+numpy
+torch
+torchvision
+PyQt5
+streamlit
+gradio
+av
+websockets
+ffmpeg-python
