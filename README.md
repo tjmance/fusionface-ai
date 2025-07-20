@@ -21,7 +21,7 @@ FusionFace AI is a high-performance, real-time AI-powered face-swapping applicat
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/fusionface-ai.git
+git clone https://github.com/tjmance/fusionface-ai.git
 cd fusionface-ai
 ```
 
